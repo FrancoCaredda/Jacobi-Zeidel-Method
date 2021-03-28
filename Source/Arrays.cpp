@@ -22,9 +22,7 @@ void PrintDoubleMatrix(double **pMatrix, int nRows, int nColumns) {
 //--------------------------------------------------------------------------------
 void PrintDoubleArray(double *pArray, int nLength) {
     for (int i = 0; i < nLength; i++)
-        printf("%5lf ", pArray[i]);
-
-    printf("\n");
+        printf("%10lf ", pArray[i]);
 }
 //--------------------------------------------------------------------------------
 void EnterDoubleMatrix(double **pMatrix, int nRows, int nColumns) {
